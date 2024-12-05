@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the log container */
+.log-container {
+    background-color: #000;
+    color: #45a049;
+    border: 2px solid #45a049;
+    ;
+    font-family: monospace;
+    padding: 10px;
+    margin-top: 20px;
+    height: 600px;
+    overflow-y: auto; /* Allows you to scroll the logs if the content is larger than the available space */
+    border-radius: 5px;
+}
+
+/* Style for log text */
+#logText {
+    white-space: pre-wrap; /* Ensures that line breaks in the log are preserved */
+    word-wrap: break-word; /* Prevents the text from exceeding the limits */
+}
